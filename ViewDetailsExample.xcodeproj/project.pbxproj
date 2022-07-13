@@ -16,6 +16,7 @@
 		C03E6492287F7CE300A936D3 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E6491287F7CE300A936D3 /* SecondView.swift */; };
 		C03E6494287F87A500A936D3 /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E6493287F87A500A936D3 /* ListExampleView.swift */; };
 		C03E6496287F8ACB00A936D3 /* Musician.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E6495287F8ACB00A936D3 /* Musician.swift */; };
+		C03E6498287F8C6700A936D3 /* ListSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E6497287F8C6700A936D3 /* ListSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C03E6491287F7CE300A936D3 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		C03E6493287F87A500A936D3 /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
 		C03E6495287F8ACB00A936D3 /* Musician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musician.swift; sourceTree = "<group>"; };
+		C03E6497287F8C6700A936D3 /* ListSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				C03E648F287F7CD300A936D3 /* FirstView.swift */,
 				C03E6491287F7CE300A936D3 /* SecondView.swift */,
 				C03E6493287F87A500A936D3 /* ListExampleView.swift */,
+				C03E6497287F8C6700A936D3 /* ListSectionView.swift */,
 				C03E6483287F659300A936D3 /* Assets.xcassets */,
 				C03E6485287F659300A936D3 /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 				C03E6492287F7CE300A936D3 /* SecondView.swift in Sources */,
 				C03E6490287F7CD300A936D3 /* FirstView.swift in Sources */,
 				C03E648E287F78BE00A936D3 /* MyImages.swift in Sources */,
+				C03E6498287F8C6700A936D3 /* ListSectionView.swift in Sources */,
 				C03E6496287F8ACB00A936D3 /* Musician.swift in Sources */,
 				C03E6480287F659000A936D3 /* ViewDetailsExampleApp.swift in Sources */,
 				C03E6494287F87A500A936D3 /* ListExampleView.swift in Sources */,

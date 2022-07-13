@@ -23,6 +23,16 @@ struct ListExampleView: View {
             List(myArray, id: \.self){ element in
                 Text(element)
             }
+            
+            NavigationLink(destination: ListSectionView()) {
+                    Text("Next View")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .padding()
+                        .background(.purple)
+                        .cornerRadius(5)
+                        .shadow(color: .yellow, radius: 4, x: 1, y: 3)
+            }
         }.navigationTitle(Text("List Example View"))
     }
 }
