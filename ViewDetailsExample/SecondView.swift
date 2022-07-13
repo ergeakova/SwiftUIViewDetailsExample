@@ -11,6 +11,16 @@ struct SecondView: View {
     var body: some View {
         VStack{
             Text("Second View")
+            
+            NavigationLink(destination: ListExampleView()) {
+                    Text("Next View")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .padding()
+                        .background(.purple)
+                        .cornerRadius(5)
+                        .shadow(color: .yellow, radius: 4, x: 1, y: 3)
+            }
         }.navigationTitle(Text("Second View"))
         
     }
