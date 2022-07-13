@@ -11,10 +11,20 @@ struct ContentView: View {
     var body: some View {
         VStack{
             
-            Image("metallica")
+            Image("metallica1")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: UIScreen.main.bounds.width * 0.8 , height: UIScreen.main.bounds.height * 0.3, alignment: .center)
+            
+            Image("metallica0")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: UIScreen.main.bounds.width * 0.8 , height: UIScreen.main.bounds.height * 0.20, alignment: .center)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.red, lineWidth: 3))
+                .shadow(color: .black, radius: 5, x: 3, y: 5)
+            
+            
             
             
             HStack{
