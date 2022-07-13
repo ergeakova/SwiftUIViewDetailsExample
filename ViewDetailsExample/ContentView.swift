@@ -9,24 +9,36 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-            
-            MyImages(image: Image("metallica0"))
-            MyImages(image: Image("metallica1"))
-            
-            HStack{
-                Text("Hello Swift")
-                    .foregroundColor(.orange)
-                    .font(.largeTitle)
-                    .padding()
-                    .background(.black)
-                Text("Metellica")
-                    .foregroundColor(.red)
-                    .fontWeight(.bold)
-                    .frame(width: 159, height: 100)
-                    .background(.purple)
-                    .padding()
-            }
+        NavigationView{
+            VStack{
+                
+                MyImages(image: Image("metallica0"))
+                MyImages(image: Image("metallica1"))
+                
+                HStack{
+                    Text("Hello Swift")
+                        .foregroundColor(.orange)
+                        .font(.largeTitle)
+                        .padding()
+                        .background(.black)
+                    Text("Metellica")
+                        .foregroundColor(.red)
+                        .fontWeight(.bold)
+                        .frame(width: 159, height: 100)
+                        .background(.purple)
+                        .padding()
+                }
+                
+                NavigationLink(destination: FirstView()) {
+                        Text("Next View")
+                            .foregroundColor(.white)
+                            .fontWeight(.bold)
+                            .padding()
+                            .background(.purple)
+                            .cornerRadius(5)
+                            .shadow(color: .yellow, radius: 4, x: 1, y: 3)
+                }
+            }.navigationTitle(Text("Main View"))
         }
     }
 }
