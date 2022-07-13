@@ -9,18 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack{
-            Text("Hello Swift")
-                .foregroundColor(.orange)
-                .font(.largeTitle)
-                .padding()
-                .background(.black)
-            Text("Metellica")
-                .foregroundColor(.red)
-                .fontWeight(.bold)
-                .frame(width: 200, height: 100)
-                .background(.purple)
-                .padding()
+        VStack{
+            
+            Image("metallica")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: UIScreen.main.bounds.width * 0.8 , height: UIScreen.main.bounds.height * 0.3, alignment: .center)
+            
+            
+            HStack{
+                Text("Hello Swift")
+                    .foregroundColor(.orange)
+                    .font(.largeTitle)
+                    .padding()
+                    .background(.black)
+                Text("Metellica")
+                    .foregroundColor(.red)
+                    .fontWeight(.bold)
+                    .frame(width: 159, height: 100)
+                    .background(.purple)
+                    .padding()
+            }
         }
     }
 }
